@@ -7,14 +7,8 @@ body {
     width: 960px;
 }
 
-header {
-    margin: 20px;
-    padding: 20px 50%;
-    background-color: #ebebeb;
-}
-
-nav {
-    margin: 20px;
+header, nav, footer {
+    margin: 10px;
     padding: 20px 50%;
     background-color: #ebebeb;
 }
@@ -22,38 +16,36 @@ nav {
 #WordsLeft {
     float: left;
     margin: 10px;
-    padding: 0 5%;
-    width: 350px;
+    padding: 10px 20px;
     background-color: #ebebeb;
 }
 
 article {
-    margin: 0px;
-    padding: 0px;
+    margin: 10px;
+    padding: 10px 50px;
     color: #ebebeb;
     background-color: #777;
 }
 
 h1 {
-    width: 50px;
-    margin: 20px;
+    margin: 10px;
+    padding: 10px 120px;
     color: #777;
     background-color: #ebebeb;
 }
 
 #TheParagraph {
-    width: 50px;
-    margin: 20px;
+    margin: 10px;
+    padding: 10px 120px;
     color: #777;
     background-color: #ebebeb;
 }
 
 #NoneRight {
+    height: 250px;
     float: left;
     margin: 10px;
-    padding: 5px 5%;
-    width: 350px;
-    height: 250px;
+    padding: 10px 180px;
     background-color: #ebebeb;
 }
 
@@ -61,10 +53,4 @@ h1 {
     content: "";
     clear: both;
     display: table;
-}
-
-footer {
-    margin: 20px;
-    padding: 20px 50%;
-    background-color: #ebebeb;
 }
